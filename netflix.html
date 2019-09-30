@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Ejercicio Netflix</title>
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0px;
+        }
+
+        #portada {
+            background-image: url("series.jpg");
+            background-size: cover;
+
+        }
+
+        #netflix {
+            width: 10%;
+            height: 10%;
+            padding: 2px;
+            margin: 20px;
+        }
+
+        #iniciar-sesion {
+            color: beige;
+            background-color: red;
+            width: 10%;
+            padding: 2px;
+            font-size: 20px;
+            text-align: center;
+            margin-right: 20px;
+            border-radius: 10px;
+
+        }
+
+        #cabecera {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #descripcion {
+            color: beige;
+            text-align: center;
+            width: 50%;
+
+        }
+
+        #descripcion h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        #descripcion h2 {
+            font-size: 28px;
+        }
+
+        #caja-descripcion {
+            display: flex;
+            justify-content: center;
+        }
+
+        #probar {
+            color: beige;
+            background-color: red;
+            font-size: 28px;
+            width: 18%;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 160px;
+
+        }
+
+        #probar p {
+            margin: 0px;
+
+        }
+
+        #caja-probar {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        /*fin pantalla 1*/
+        #tv {
+            background-color: black;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+        }
+
+        #probar-tv h1 {
+            color: beige;
+            font-size: 50px;
+        }
+
+        #probar-tv p {
+            color: beige;
+            font-size: 28px;
+        }
+
+        #probar-tv {
+            margin-left: 50px;
+
+        }
+
+        #foto-tv {
+            width: 80%;
+
+
+        }
+
+        #texto-tv {
+            width: 40%;
+            margin-right: 59px;
+        }
+
+        #imagen-tv {
+            width: 40%;
+        }
+
+        #boton-probar-tv {
+            color: beige;
+            border: 1px solid white;
+            font-size: 24px;
+            width: 40%;
+            text-align: center;
+            margin-left:50px;
+
+        }
+        #boton-probar-tv p{
+            margin: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--pantalla 1-->
+    <div id="portada">
+        <div id="cabecera">
+            <img src="file:///C:/Users/usuario/Documents/BOOTCAMP/SEPTIEMBRE/30%20sept/02%20-%20Ejercicio%20Netflix/imagenes/Netflix_2015_logo.svg"
+                id="netflix">
+            <p id="iniciar-sesion">Iniciar sesión</p>
+        </div>
+        <div id="caja-descripcion">
+            <div id="descripcion">
+                <h1>Todas las películas y series que desees, y mucho más</h1>
+                <h2>Distruta donde quieras. Cancela cuando quieras.</h2>
+            </div>
+        </div>
+
+        <div id="caja-probar">
+            <div id="probar">
+                <p>PROBAR AHORA></p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--fin pantalla 1-->
+
+    <!--pantalla 2-->
+    <div id="tv">
+        <div id="texto-tv">
+            <div id="probar-tv">
+                <h1>Disfruta de Netflix en tu TV.</h1>
+                <p>Smart Tv, Playstation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y muchos más.</p>
+
+            </div>
+            <div id="boton-probar-tv">
+                <p>PROBAR AHORA></p>
+
+            </div>
+
+        </div>
+
+        <div id="imagen-tv">
+            <img src="../02 - Ejercicio Netflix/imagenes/tv.png" id="foto-tv">
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
